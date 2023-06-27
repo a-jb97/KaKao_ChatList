@@ -8,8 +8,24 @@
 import SwiftUI
 
 struct ChatPage: View {
+    var user: User = User(name: "카카오톡 선물하기", chat: "교환권은 잘 사용하셨나요? 소중한 후기를 남겨주세요.", imageName: "선물하기", date: "2023년 06월 13일")
+    
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        List {
+            VStack{
+                HStack{
+                    Image("\(user.imageName)")
+                        .resizable()
+                        .clipShape(RoundedRectangle(cornerRadius: 80))
+                        .aspectRatio(contentMode: .fit)
+                    Text("\(user.name)")
+                    
+                }
+                .padding()
+                
+                Text("\(user.chat)")
+            }
+        }
     }
 }
 
