@@ -1,0 +1,298 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="21701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21679"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="KakaoViewUIKitMS" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="채팅" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="S8T-jd-3Ow">
+                                <rect key="frame" x="16" y="59" width="74" height="60"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="34"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="386-x8-XcV">
+                                <rect key="frame" x="313" y="82" width="24" height="14"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title=""/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9a4-28-bjh">
+                                <rect key="frame" x="353" y="82" width="24" height="14"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title=""/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Taw-02-bmc">
+                                <rect key="frame" x="272" y="82" width="24" height="14"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title=""/>
+                            </button>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Gift" translatesAutoresizingMaskIntoConstraints="NO" id="Y3o-4K-7db">
+                                <rect key="frame" x="16" y="132" width="60" height="60"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="DefaultImage" translatesAutoresizingMaskIntoConstraints="NO" id="nqz-v1-OWq">
+                                <rect key="frame" x="16" y="221" width="60" height="60"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Wanted" translatesAutoresizingMaskIntoConstraints="NO" id="Hap-Jx-DEl">
+                                <rect key="frame" x="16" y="489" width="60" height="60"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Innisfree" translatesAutoresizingMaskIntoConstraints="NO" id="zSh-6E-3Vl">
+                                <rect key="frame" x="16" y="399" width="60" height="60"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Seconds8" translatesAutoresizingMaskIntoConstraints="NO" id="N0m-QK-kiZ">
+                                <rect key="frame" x="16" y="578" width="60" height="60"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Infran" translatesAutoresizingMaskIntoConstraints="NO" id="zEu-Wn-0Ac">
+                                <rect key="frame" x="16" y="669" width="60" height="60"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="BaskinRobins" translatesAutoresizingMaskIntoConstraints="NO" id="fhb-RY-Cco">
+                                <rect key="frame" x="16" y="310" width="60" height="60"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" text="교환권은 잘 사용하셨나요? 소중한 후기를 남겨주세요." textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="9b5-bt-Q7R">
+                                <rect key="frame" x="92" y="150" width="285" height="48"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <color key="textColor" systemColor="labelColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" text="카카오톡 선물하기" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="s3z-9f-VDQ">
+                                <rect key="frame" x="92" y="127" width="285" height="25"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <color key="textColor" systemColor="labelColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" text="종로로 갈까요~ 명동으로 갈까요~ 아니면, 청량리로 갈까요~ 많고만 사람들 중에~ 흠흠" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="A2d-gH-PBe">
+                                <rect key="frame" x="92" y="238" width="285" height="49.666666666666686"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <color key="textColor" systemColor="labelColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" text="고길동" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="Jkh-TL-pWe">
+                                <rect key="frame" x="92" y="215" width="285" height="25"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <color key="textColor" systemColor="labelColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" text="6월 13일" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="htK-EW-6jz">
+                                <rect key="frame" x="313" y="215" width="64" height="25"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <color key="textColor" systemColor="labelColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" text="쿠폰이 지급되었습니다. 쿠폰번호를 확인 해주세요!" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="siz-yI-3XC">
+                                <rect key="frame" x="92" y="327" width="285" height="49.666666666666686"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <color key="textColor" systemColor="labelColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" text="배스킨라빈스" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="hbU-yW-uCK">
+                                <rect key="frame" x="92" y="304" width="285" height="25"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <color key="textColor" systemColor="labelColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" text="(광고)[LIVE] 서두르세요! 라이브 혜택은 오전 9시 50분까지만⏳ 유효합니다. 이 기회를 놓치지 마세요!" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="d3n-1f-C18">
+                                <rect key="frame" x="92" y="415" width="285" height="58"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <color key="textColor" systemColor="labelColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" text="이니스프리" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="Fgk-LL-60U">
+                                <rect key="frame" x="92" y="392" width="285" height="24"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <color key="textColor" systemColor="labelColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" text="[원티드] 추천 포지션 안내 : 전민돌님을 위한 개발 맞춤 포지션을 안내해 드립니다. 더 이상 이 메세지를 수신하지 않기를 원하신다면 수신 거부 버튼을 눌러주시기 바랍니다." textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="E7L-Lf-yIx">
+                                <rect key="frame" x="92" y="504" width="285" height="68"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <color key="textColor" systemColor="labelColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" text="원티드" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="8ui-cw-6tB">
+                                <rect key="frame" x="92" y="481" width="285" height="24"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <color key="textColor" systemColor="labelColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" text="(광고)슈퍼세일 오픈! UP TO 50%🛍️ 2023 S/S 신상 제품을 할인 가격에 구매하실 수 있는 절호의 기회! 기간이 지나기 전에 빨리 서두르세요!" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="rlp-nf-0No">
+                                <rect key="frame" x="92" y="594" width="285" height="60"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <color key="textColor" systemColor="labelColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" text="에잇세컨즈" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="Omr-V5-L83">
+                                <rect key="frame" x="92" y="571" width="285" height="26"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <color key="textColor" systemColor="labelColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" text="6월 13일" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="Vj6-Dl-FH5">
+                                <rect key="frame" x="313" y="127" width="64" height="25"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <color key="textColor" systemColor="labelColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" text="6월 14일" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="e35-Rc-zDV">
+                                <rect key="frame" x="313" y="304" width="64" height="25"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <color key="textColor" systemColor="labelColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" text="6월 15일" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="oDK-Ew-6zT">
+                                <rect key="frame" x="313" y="392" width="64" height="24"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <color key="textColor" systemColor="labelColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" text="6월 15일" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="GdR-Ni-sgz">
+                                <rect key="frame" x="313" y="481" width="64" height="24"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <color key="textColor" systemColor="labelColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" text="6월 16일" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="TZ1-96-dFC">
+                                <rect key="frame" x="313" y="571" width="64" height="26"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <color key="textColor" systemColor="labelColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" text="(광고)📢 와!!! 인프런에서 'FE'stival 열렸다!!! 💚 딱 2일 동안만 프론트엔드 강의를 50% 할인된 가격에 수강하실 수 있습니다. 이 절호의 기회를 놓치는 일이 없으시길 바랍니다!!" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="7p1-Gi-Xc2">
+                                <rect key="frame" x="92" y="684" width="285" height="78"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <color key="textColor" systemColor="labelColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" text="인프런" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="sCY-b8-PP7">
+                                <rect key="frame" x="92" y="661" width="285" height="26"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <color key="textColor" systemColor="labelColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" text="6월 17일" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="9hf-Ww-KEO">
+                                <rect key="frame" x="313" y="662" width="64" height="25"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <color key="textColor" systemColor="labelColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <connections>
+                        <outlet property="chatPlusButton" destination="386-x8-XcV" id="Jh0-pI-nxQ"/>
+                        <outlet property="searchButton" destination="Taw-02-bmc" id="k3y-M6-LQE"/>
+                        <outlet property="settingButton" destination="9a4-28-bjh" id="oDH-a8-Ub3"/>
+                        <outletCollection property="profileImage" destination="Y3o-4K-7db" collectionClass="NSMutableArray" id="kPW-pg-hcR"/>
+                        <outletCollection property="profileImage" destination="nqz-v1-OWq" collectionClass="NSMutableArray" id="U2K-NZ-AcB"/>
+                        <outletCollection property="profileImage" destination="fhb-RY-Cco" collectionClass="NSMutableArray" id="jBo-30-Lbn"/>
+                        <outletCollection property="profileImage" destination="zSh-6E-3Vl" collectionClass="NSMutableArray" id="tSS-M9-8cD"/>
+                        <outletCollection property="profileImage" destination="Hap-Jx-DEl" collectionClass="NSMutableArray" id="6yw-DP-nvD"/>
+                        <outletCollection property="profileImage" destination="N0m-QK-kiZ" collectionClass="NSMutableArray" id="PrD-CZ-ppq"/>
+                        <outletCollection property="profileImage" destination="zEu-Wn-0Ac" collectionClass="NSMutableArray" id="dXo-bj-Ifj"/>
+                        <outletCollection property="userName" destination="s3z-9f-VDQ" collectionClass="NSMutableArray" id="SRd-m1-nnp"/>
+                        <outletCollection property="userName" destination="Jkh-TL-pWe" collectionClass="NSMutableArray" id="BU2-1r-Ad0"/>
+                        <outletCollection property="userName" destination="hbU-yW-uCK" collectionClass="NSMutableArray" id="68a-tg-r6E"/>
+                        <outletCollection property="userName" destination="Fgk-LL-60U" collectionClass="NSMutableArray" id="EDV-K8-0b1"/>
+                        <outletCollection property="userName" destination="8ui-cw-6tB" collectionClass="NSMutableArray" id="GLK-39-OAG"/>
+                        <outletCollection property="userName" destination="Omr-V5-L83" collectionClass="NSMutableArray" id="GIX-1n-5WO"/>
+                        <outletCollection property="userName" destination="sCY-b8-PP7" collectionClass="NSMutableArray" id="Gq8-h5-ip4"/>
+                        <outletCollection property="chatPreview" destination="9b5-bt-Q7R" collectionClass="NSMutableArray" id="ySD-TD-h53"/>
+                        <outletCollection property="chatPreview" destination="A2d-gH-PBe" collectionClass="NSMutableArray" id="rm6-5W-zpS"/>
+                        <outletCollection property="chatPreview" destination="siz-yI-3XC" collectionClass="NSMutableArray" id="yiJ-nr-5d8"/>
+                        <outletCollection property="chatPreview" destination="d3n-1f-C18" collectionClass="NSMutableArray" id="XnV-fd-Lf2"/>
+                        <outletCollection property="chatPreview" destination="E7L-Lf-yIx" collectionClass="NSMutableArray" id="6Se-AV-eyh"/>
+                        <outletCollection property="chatPreview" destination="rlp-nf-0No" collectionClass="NSMutableArray" id="WKD-l7-yuP"/>
+                        <outletCollection property="chatPreview" destination="7p1-Gi-Xc2" collectionClass="NSMutableArray" id="Qh9-PX-vPu"/>
+                        <outletCollection property="date" destination="Vj6-Dl-FH5" collectionClass="NSMutableArray" id="nop-DC-uDz"/>
+                        <outletCollection property="date" destination="htK-EW-6jz" collectionClass="NSMutableArray" id="w6a-lr-hte"/>
+                        <outletCollection property="date" destination="e35-Rc-zDV" collectionClass="NSMutableArray" id="Ah8-A7-YlX"/>
+                        <outletCollection property="date" destination="oDK-Ew-6zT" collectionClass="NSMutableArray" id="LOd-iz-I3g"/>
+                        <outletCollection property="date" destination="GdR-Ni-sgz" collectionClass="NSMutableArray" id="YkX-zN-9Wc"/>
+                        <outletCollection property="date" destination="TZ1-96-dFC" collectionClass="NSMutableArray" id="r9S-YV-U4w"/>
+                        <outletCollection property="date" destination="9hf-Ww-KEO" collectionClass="NSMutableArray" id="4HH-Lr-zzh"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="135.1145038167939" y="3.5211267605633805"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="BaskinRobins" width="750" height="750"/>
+        <image name="DefaultImage" width="320" height="320"/>
+        <image name="Gift" width="300" height="300"/>
+        <image name="Infran" width="300" height="300"/>
+        <image name="Innisfree" width="200" height="200"/>
+        <image name="Seconds8" width="225" height="225"/>
+        <image name="Wanted" width="225" height="225"/>
+        <systemColor name="labelColor">
+            <color red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

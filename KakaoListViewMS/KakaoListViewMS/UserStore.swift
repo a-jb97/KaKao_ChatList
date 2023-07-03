@@ -12,7 +12,7 @@ class UserStore: ObservableObject {
     
     init() {
         users = [
-            User(name: "카카오톡 선물하기", chat: "교환권은 잘 사용하셨나요? 소중한 후기를 남겨주세요.", imageName: "Gift", date: "06월 13일"),
+            User(name: "카카오톡 선물하기", chat: "교환권은 잘 사용하셨나요? 소중한 후기를 남겨주세요.", imageName: "Gift", date: "6월 13일"),
             User(name: "고길동", chat: "종로로 갈까요~ 명동으로 갈까요~ 아니면, 청량리로 갈까요~ 많고만 사람들 중에~ 흠흠", imageName: "DefaultImage", date: "6월 13일"),
             User(name: "배스킨라빈스", chat: "쿠폰이 지급되었습니다. 쿠폰번호를 확인 해주세요!", imageName: "BaskinRobins", date: "6월 14일"),
             User(name: "이니스프리", chat: "(광고)[LIVE] 서두르세요! 라이브 혜택은 오전 9시 50분까지만⏳ 유효합니다. 이 기회를 놓치지 마세요!", imageName: "Innisfree", date: "6월 15일"),
