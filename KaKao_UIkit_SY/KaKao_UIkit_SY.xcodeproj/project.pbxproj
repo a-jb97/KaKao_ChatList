@@ -7,28 +7,31 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		D5B942202A4B1DA200DC4590 /* KaKao_ChatList_SYApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5B9421F2A4B1DA200DC4590 /* KaKao_ChatList_SYApp.swift */; };
-		D5B942222A4B1DA200DC4590 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5B942212A4B1DA200DC4590 /* ContentView.swift */; };
-		D5B942242A4B1DA400DC4590 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D5B942232A4B1DA400DC4590 /* Assets.xcassets */; };
-		D5B942272A4B1DA400DC4590 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D5B942262A4B1DA400DC4590 /* Preview Assets.xcassets */; };
-		D5B9422E2A4B1E9800DC4590 /* ChatData.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5B9422D2A4B1E9800DC4590 /* ChatData.swift */; };
-		D5B942302A4B1EA500DC4590 /* ChatListSY.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5B9422F2A4B1EA500DC4590 /* ChatListSY.swift */; };
-		D5B942322A4B1EB900DC4590 /* ChatListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5B942312A4B1EB900DC4590 /* ChatListView.swift */; };
+		D50DEC492A530AA9009AB039 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D50DEC482A530AA9009AB039 /* AppDelegate.swift */; };
+		D50DEC4B2A530AA9009AB039 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D50DEC4A2A530AA9009AB039 /* SceneDelegate.swift */; };
+		D50DEC4D2A530AA9009AB039 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D50DEC4C2A530AA9009AB039 /* ViewController.swift */; };
+		D50DEC502A530AA9009AB039 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D50DEC4E2A530AA9009AB039 /* Main.storyboard */; };
+		D50DEC522A530AAA009AB039 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D50DEC512A530AAA009AB039 /* Assets.xcassets */; };
+		D50DEC552A530AAB009AB039 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D50DEC532A530AAB009AB039 /* LaunchScreen.storyboard */; };
+		D50DEC5D2A530AE5009AB039 /* KakaoData.swift in Sources */ = {isa = PBXBuildFile; fileRef = D50DEC5C2A530AE5009AB039 /* KakaoData.swift */; };
+		D50DEC5F2A530B02009AB039 /* KakaoTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D50DEC5E2A530B02009AB039 /* KakaoTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		D5B9421C2A4B1DA200DC4590 /* KaKao_ChatList_SY.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KaKao_ChatList_SY.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		D5B9421F2A4B1DA200DC4590 /* KaKao_ChatList_SYApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KaKao_ChatList_SYApp.swift; sourceTree = "<group>"; };
-		D5B942212A4B1DA200DC4590 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		D5B942232A4B1DA400DC4590 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		D5B942262A4B1DA400DC4590 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		D5B9422D2A4B1E9800DC4590 /* ChatData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatData.swift; sourceTree = "<group>"; };
-		D5B9422F2A4B1EA500DC4590 /* ChatListSY.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatListSY.swift; sourceTree = "<group>"; };
-		D5B942312A4B1EB900DC4590 /* ChatListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatListView.swift; sourceTree = "<group>"; };
+		D50DEC452A530AA9009AB039 /* KaKao_UIkit_SY.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KaKao_UIkit_SY.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D50DEC482A530AA9009AB039 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D50DEC4A2A530AA9009AB039 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		D50DEC4C2A530AA9009AB039 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D50DEC4F2A530AA9009AB039 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D50DEC512A530AAA009AB039 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D50DEC542A530AAB009AB039 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D50DEC562A530AAB009AB039 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D50DEC5C2A530AE5009AB039 /* KakaoData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KakaoData.swift; sourceTree = "<group>"; };
+		D50DEC5E2A530B02009AB039 /* KakaoTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KakaoTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		D5B942192A4B1DA200DC4590 /* Frameworks */ = {
+		D50DEC422A530AA9009AB039 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -38,88 +41,74 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		D5B942132A4B1DA200DC4590 = {
+		D50DEC3C2A530AA9009AB039 = {
 			isa = PBXGroup;
 			children = (
-				D5B9421E2A4B1DA200DC4590 /* KaKao_ChatList_SY */,
-				D5B9421D2A4B1DA200DC4590 /* Products */,
+				D50DEC472A530AA9009AB039 /* KaKao_UIkit_SY */,
+				D50DEC462A530AA9009AB039 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		D5B9421D2A4B1DA200DC4590 /* Products */ = {
+		D50DEC462A530AA9009AB039 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				D5B9421C2A4B1DA200DC4590 /* KaKao_ChatList_SY.app */,
+				D50DEC452A530AA9009AB039 /* KaKao_UIkit_SY.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		D5B9421E2A4B1DA200DC4590 /* KaKao_ChatList_SY */ = {
+		D50DEC472A530AA9009AB039 /* KaKao_UIkit_SY */ = {
 			isa = PBXGroup;
 			children = (
-				D5B942332A4B1EFE00DC4590 /* Kakao_SY */,
-				D5B9421F2A4B1DA200DC4590 /* KaKao_ChatList_SYApp.swift */,
-				D5B942212A4B1DA200DC4590 /* ContentView.swift */,
-				D5B942232A4B1DA400DC4590 /* Assets.xcassets */,
-				D5B942252A4B1DA400DC4590 /* Preview Content */,
+				D50DEC482A530AA9009AB039 /* AppDelegate.swift */,
+				D50DEC4A2A530AA9009AB039 /* SceneDelegate.swift */,
+				D50DEC4C2A530AA9009AB039 /* ViewController.swift */,
+				D50DEC5C2A530AE5009AB039 /* KakaoData.swift */,
+				D50DEC4E2A530AA9009AB039 /* Main.storyboard */,
+				D50DEC512A530AAA009AB039 /* Assets.xcassets */,
+				D50DEC532A530AAB009AB039 /* LaunchScreen.storyboard */,
+				D50DEC562A530AAB009AB039 /* Info.plist */,
+				D50DEC5E2A530B02009AB039 /* KakaoTableViewCell.swift */,
 			);
-			path = KaKao_ChatList_SY;
-			sourceTree = "<group>";
-		};
-		D5B942252A4B1DA400DC4590 /* Preview Content */ = {
-			isa = PBXGroup;
-			children = (
-				D5B942262A4B1DA400DC4590 /* Preview Assets.xcassets */,
-			);
-			path = "Preview Content";
-			sourceTree = "<group>";
-		};
-		D5B942332A4B1EFE00DC4590 /* Kakao_SY */ = {
-			isa = PBXGroup;
-			children = (
-				D5B9422D2A4B1E9800DC4590 /* ChatData.swift */,
-				D5B9422F2A4B1EA500DC4590 /* ChatListSY.swift */,
-				D5B942312A4B1EB900DC4590 /* ChatListView.swift */,
-			);
-			path = Kakao_SY;
+			path = KaKao_UIkit_SY;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		D5B9421B2A4B1DA200DC4590 /* KaKao_ChatList_SY */ = {
+		D50DEC442A530AA9009AB039 /* KaKao_UIkit_SY */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = D5B9422A2A4B1DA400DC4590 /* Build configuration list for PBXNativeTarget "KaKao_ChatList_SY" */;
+			buildConfigurationList = D50DEC592A530AAB009AB039 /* Build configuration list for PBXNativeTarget "KaKao_UIkit_SY" */;
 			buildPhases = (
-				D5B942182A4B1DA200DC4590 /* Sources */,
-				D5B942192A4B1DA200DC4590 /* Frameworks */,
-				D5B9421A2A4B1DA200DC4590 /* Resources */,
+				D50DEC412A530AA9009AB039 /* Sources */,
+				D50DEC422A530AA9009AB039 /* Frameworks */,
+				D50DEC432A530AA9009AB039 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = KaKao_ChatList_SY;
-			productName = KaKao_ChatList_SY;
-			productReference = D5B9421C2A4B1DA200DC4590 /* KaKao_ChatList_SY.app */;
+			name = KaKao_UIkit_SY;
+			productName = KaKao_UIkit_SY;
+			productReference = D50DEC452A530AA9009AB039 /* KaKao_UIkit_SY.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		D5B942142A4B1DA200DC4590 /* Project object */ = {
+		D50DEC3D2A530AA9009AB039 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1430;
 				LastUpgradeCheck = 1430;
 				TargetAttributes = {
-					D5B9421B2A4B1DA200DC4590 = {
+					D50DEC442A530AA9009AB039 = {
 						CreatedOnToolsVersion = 14.3;
 					};
 				};
 			};
-			buildConfigurationList = D5B942172A4B1DA200DC4590 /* Build configuration list for PBXProject "KaKao_ChatList_SY" */;
+			buildConfigurationList = D50DEC402A530AA9009AB039 /* Build configuration list for PBXProject "KaKao_UIkit_SY" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -127,45 +116,65 @@
 				en,
 				Base,
 			);
-			mainGroup = D5B942132A4B1DA200DC4590;
-			productRefGroup = D5B9421D2A4B1DA200DC4590 /* Products */;
+			mainGroup = D50DEC3C2A530AA9009AB039;
+			productRefGroup = D50DEC462A530AA9009AB039 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				D5B9421B2A4B1DA200DC4590 /* KaKao_ChatList_SY */,
+				D50DEC442A530AA9009AB039 /* KaKao_UIkit_SY */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		D5B9421A2A4B1DA200DC4590 /* Resources */ = {
+		D50DEC432A530AA9009AB039 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D5B942272A4B1DA400DC4590 /* Preview Assets.xcassets in Resources */,
-				D5B942242A4B1DA400DC4590 /* Assets.xcassets in Resources */,
+				D50DEC552A530AAB009AB039 /* LaunchScreen.storyboard in Resources */,
+				D50DEC522A530AAA009AB039 /* Assets.xcassets in Resources */,
+				D50DEC502A530AA9009AB039 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		D5B942182A4B1DA200DC4590 /* Sources */ = {
+		D50DEC412A530AA9009AB039 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D5B9422E2A4B1E9800DC4590 /* ChatData.swift in Sources */,
-				D5B942322A4B1EB900DC4590 /* ChatListView.swift in Sources */,
-				D5B942222A4B1DA200DC4590 /* ContentView.swift in Sources */,
-				D5B942202A4B1DA200DC4590 /* KaKao_ChatList_SYApp.swift in Sources */,
-				D5B942302A4B1EA500DC4590 /* ChatListSY.swift in Sources */,
+				D50DEC5F2A530B02009AB039 /* KakaoTableViewCell.swift in Sources */,
+				D50DEC4D2A530AA9009AB039 /* ViewController.swift in Sources */,
+				D50DEC492A530AA9009AB039 /* AppDelegate.swift in Sources */,
+				D50DEC4B2A530AA9009AB039 /* SceneDelegate.swift in Sources */,
+				D50DEC5D2A530AE5009AB039 /* KakaoData.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
+/* Begin PBXVariantGroup section */
+		D50DEC4E2A530AA9009AB039 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D50DEC4F2A530AA9009AB039 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D50DEC532A530AAB009AB039 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D50DEC542A530AAB009AB039 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
 /* Begin XCBuildConfiguration section */
-		D5B942282A4B1DA400DC4590 /* Debug */ = {
+		D50DEC572A530AAB009AB039 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -225,7 +234,7 @@
 			};
 			name = Debug;
 		};
-		D5B942292A4B1DA400DC4590 /* Release */ = {
+		D50DEC582A530AAB009AB039 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -279,19 +288,18 @@
 			};
 			name = Release;
 		};
-		D5B9422B2A4B1DA400DC4590 /* Debug */ = {
+		D50DEC5A2A530AAB009AB039 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"KaKao_ChatList_SY/Preview Content\"";
-				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_FILE = KaKao_UIkit_SY/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -299,7 +307,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.linda.KaKao-ChatList-SY";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.linda.KaKao-UIkit-SY";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -307,19 +315,18 @@
 			};
 			name = Debug;
 		};
-		D5B9422C2A4B1DA400DC4590 /* Release */ = {
+		D50DEC5B2A530AAB009AB039 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"KaKao_ChatList_SY/Preview Content\"";
-				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_FILE = KaKao_UIkit_SY/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -327,7 +334,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.linda.KaKao-ChatList-SY";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.linda.KaKao-UIkit-SY";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -338,25 +345,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		D5B942172A4B1DA200DC4590 /* Build configuration list for PBXProject "KaKao_ChatList_SY" */ = {
+		D50DEC402A530AA9009AB039 /* Build configuration list for PBXProject "KaKao_UIkit_SY" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				D5B942282A4B1DA400DC4590 /* Debug */,
-				D5B942292A4B1DA400DC4590 /* Release */,
+				D50DEC572A530AAB009AB039 /* Debug */,
+				D50DEC582A530AAB009AB039 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		D5B9422A2A4B1DA400DC4590 /* Build configuration list for PBXNativeTarget "KaKao_ChatList_SY" */ = {
+		D50DEC592A530AAB009AB039 /* Build configuration list for PBXNativeTarget "KaKao_UIkit_SY" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				D5B9422B2A4B1DA400DC4590 /* Debug */,
-				D5B9422C2A4B1DA400DC4590 /* Release */,
+				D50DEC5A2A530AAB009AB039 /* Debug */,
+				D50DEC5B2A530AAB009AB039 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = D5B942142A4B1DA200DC4590 /* Project object */;
+	rootObject = D50DEC3D2A530AA9009AB039 /* Project object */;
 }
